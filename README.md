@@ -6,6 +6,7 @@ LoLWebWrapper is a simple wrapper around websites such as U.GG written in C# tha
 
 TODO:
 Make everything ASYNC
+It also currently has almost 0 error handling.
 
 Usage:
 
