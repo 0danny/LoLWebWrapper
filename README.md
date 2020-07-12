@@ -5,7 +5,7 @@ LoLWebWrapper is a simple wrapper around websites such as U.GG written in C# tha
 (U.GG) Right now it only gets the most popular build on the front page for Platnium+ but it would be very easy to add functionaility for choosing ranks.
 
 TODO:
-Make everything ASYNC
+Make everything ASYNC,
 It also currently has almost 0 error handling.
 
 Usage:
