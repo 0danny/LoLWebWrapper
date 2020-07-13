@@ -6,6 +6,15 @@ using System.Threading.Tasks;
 
 namespace LoLWebWrapper.Core.Components
 {
+    public enum championRole
+    {
+        Top,
+        Jungle,
+        Middle,
+        ADC,
+        Support
+    }
+
     public class RuneBuildModel
     {
         public PrimaryRune primaryRune;
