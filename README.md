@@ -17,7 +17,9 @@ using LoLWebWrapper.Core.Modules;
 
 LoLWrapperObject wrapper = new LoLWrapperObject();
 
-uGGParser uGGParser = wrapper.getUGG("Yasuo", "Middle"); //Champion (String), Role(String)
+LoLWrapperObject.consoleOutput = true; //Your choice what you do with this, more just for debugging purposes.
+
+uGGParser uGGParser = wrapper.getUGG("Yasuo", championRole.Middle); //Champion (String), Role(championRole Enum)
 
 Console.WriteLine("[Primary Runes]");
 Console.WriteLine("     Main Rune: " + uGGParser.model.primaryRune.mainRune);
